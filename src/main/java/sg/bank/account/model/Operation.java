@@ -20,6 +20,18 @@ public class Operation {
         this.amount = amount;
     }
 
+    public OperationType getOperationType() {
+        return operationType;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
